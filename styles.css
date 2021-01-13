@@ -1,0 +1,72 @@
+
+.bodyColor{
+    background-color: #000000;
+}
+.whiteWrapper{
+    border: 15px solid #ffffff;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+.head{    
+    background-color: #4A4F56;
+}
+.head p, .bonAppetit{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #EB7E7F;
+    font-family: Trebuchet, Arial, sans-serif;
+}
+header > p:first-child{
+    font-size: 25px;
+    font-weight: bold;   
+}
+header > p:last-child{
+    font-size: 16px;   
+    padding-top: 0;
+}
+main {
+    background-color: #3B3F45;
+   height: 400px;
+}
+ul {
+    background-color: #3B3F45;
+    margin: 0 auto;
+    padding: 30px;
+}
+li{
+    background-color: #7A7593;
+    display: block;
+   list-style-type: none;
+   width: 400px;
+   margin: 0px auto;
+   padding: 10px;
+   font-family: Trebuchet, Arial, sans-serif;
+   font-size: 18px;
+   color: white;
+}
+li:nth-child(2n){
+    background-color: #88839E;
+}
+li :hover{
+border: 3px 0 solid white;
+}
+li :active{
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+}
+.bonAppetit {
+    background-color: #4A4F56;
+    width: 400px;
+    margin: 0px auto;
+}
+.bonAppetit p{
+    margin: 0;
+}
+
+
+
+}
