@@ -49,15 +49,18 @@ li{
 li:nth-child(2n){
     background-color: #88839E;
 }
-li :hover{
-border: 3px 0 solid white;
-}
-li :active{
+li:visited{
     text-decoration: line-through;
 }
-a {
-    text-decoration: none;
+li:hover{
+	background-color: #625E77;
+	color: #9F9BB1;
+	border-bottom: 5px solid white;
+	border-top: 5px solid white;	
 }
+
+
+
 .bonAppetit {
     background-color: #4A4F56;
     width: 400px;
@@ -67,6 +70,6 @@ a {
     margin: 0;
 }
 
-
-
+li :active{
+    text-decoration: line-through;
 }
