@@ -5,7 +5,7 @@
 .whiteWrapper{
     border: 15px solid #ffffff;
     width: 600px;
-    height: 500px;
+    height: 477px;
     margin: 0 auto;
 }
 .head{    
@@ -59,7 +59,9 @@ li:hover{
 	border-top: 5px solid white;	
 }
 
-
+a{
+    text-decoration: none;
+}
 
 .bonAppetit {
     background-color: #4A4F56;
