@@ -45,17 +45,20 @@ li{
    font-family: Trebuchet, Arial, sans-serif;
    font-size: 18px;
    color: white;
+   transition: all ease .25s;
+}
+
+input:checked + .list{
+    text-decoration: line-through;
 }
 li:nth-child(2n){
     background-color: #88839E;
 }
-li:visited{
-    text-decoration: line-through;
-}
+
 li:hover{
 	background-color: #625E77;
 	color: #9F9BB1;
-	border-bottom: 5px solid white;
+	border-bottom: 3px solid white;
 	border-top: 5px solid white;	
 }
 
