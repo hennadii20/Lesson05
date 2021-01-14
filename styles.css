@@ -67,6 +67,8 @@ a{
 }
 
 .bonAppetit {
+    position: relative;
+    bottom: 100px;
     background-color: #4A4F56;
     width: 400px;
     margin: 0px auto;
